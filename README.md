@@ -8,7 +8,7 @@ There are 3 types of small sattelites:
 Here we talk mostly about ballon satellites.
 
 ## Communication
-An example is RockBlock sattelite modem. One needs subscription to the Iridium satellite network. There is 12£ monthly subscription and also you pay per data. Currently it seems expensive: 50£ correspond to 500 credits where 1 credit is just 50 bytes which means that 50£ = 24kb of data that will not sufficient for the sattelite to send its possition contiously, but it could be doable if the satellite is limitted to sending its possition 6 times per day.
+An example is RockBlock sattelite modem. One needs subscription to the [Iridium satellite network](https://en.wikipedia.org/wiki/Iridium_satellite_constellation). There is 12£ monthly subscription and also you pay per data. Currently it seems expensive: 50£ correspond to 500 credits where 1 credit is just 50 bytes which means that 50£ = 24kb of data that will not be sufficient for the satellite to send its position contiously, but it could be doable if the satellite is limitted to sending its position 6 times per day.
 
 ## Positioning
 Gps systems are limmitted to certain altitude and speed. So one needs to either use a device that has none of these restrictions or fly at a lower altitude.
