@@ -28,6 +28,9 @@ It seems the most simple way to calculate altitude is to use air pressure sensor
 * solar panel
 * [RAT](https://en.wikipedia.org/wiki/Ram_air_turbine) - a RAM air turbine - usually used on planes in case of emergency to produce electricity utilizing the speed of a plane or potentially a balloon
 
+## Camera
+The camera is positioned towards the ground. Stabilisation can be performed using [icavet-rigging](https://www.publiclab.org/wiki/picavet-rigging).
+
 ## Resources
 * https://github.com/stanford-ssi/balloons-VALBAL
 * [Low cost, high endurance, altitude-controlled latex balloon for near-space research (ValBal)](https://stanfordasl.github.io/wp-content/papercite-data/pdf/Suskho.Tedjarati.ea.AERO2017.pdf)
