@@ -1,4 +1,4 @@
-This repository contains information concerning techologies used in small satellites.
+This repository contains information concerning technologies used in small satellites.
 
 There are 3 types of small satellites:
 * ballon satellites (satelloon)
