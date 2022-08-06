@@ -1,6 +1,6 @@
 This repository contains information for techologies used in small satellites.
 
-There are 3 types of small sattelites:
+There are 3 types of small satellites:
 * ballon satellites (satelloon)
 * cube sattellites (cubesat)
 * can sized satellites (cansat)
