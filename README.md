@@ -5,7 +5,7 @@ There are 3 types of small satellites:
 * cube satellites ([cubesat](https://en.wikipedia.org/wiki/CubeSat)) , 10 x 10 x 10cm, less than 2 kg, does leave the atmosphere
 * can sized satellites ([cansat](https://en.wikipedia.org/wiki/CanSat)), 66mm diameter and 115mm height, mass below 350g, does not leave the atmosphere, are launched by a small rocket (but do not reach orbit velocity) and usually descent using a small parachute
 
-Here we talk mostly about balloon satellites. Balloon satellites can be used for high altitude photography and even telescopes.
+Here we talk mostly about balloon satellites. Balloon satellites can be used for high altitude photography and even telescopes. These can be built by amateurs.
 
 ## Communication
 You can use a satellite modem. An example is the [RockBLOCK Mk2](https://www.sparkfun.com/products/13745) modem. One needs subscription to the [Iridium satellite network](https://en.wikipedia.org/wiki/Iridium_satellite_constellation). There is 12£ monthly subscription and also you pay per data. Currently it seems expensive: 50£ corresponds to 500 credits where 1 credit is just 50 bytes which means that 50£ = 24kb of data that will not be sufficient for the satellite to send its position contiously, but it could be doable if the satellite is limitted to sending its position 6 times per day.
