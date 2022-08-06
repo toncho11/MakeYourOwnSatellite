@@ -1,9 +1,9 @@
- repository contains information concerning technologies used in small satellites.
+This repository contains information concerning technologies used in small satellites.
 
 There are 3 types of small satellites:
-* ballon satellites (satelloon)
-* cube satellites ([cubesat](https://en.wikipedia.org/wiki/CubeSat)) , 10 x 10 x 10cm, less than 2 kg, does leave the athmosphere
-* can sized satellites ([cansat](https://en.wikipedia.org/wiki/CanSat)), 66mm diameter and 115mm height, mass below 350g, does not leave the atmosphere, are launched by a small rocket (but do not reach orbit velocity) and usually descent using a parachute
+* ballon satellites (satelloon), does not leave the atmosphere
+* cube satellites ([cubesat](https://en.wikipedia.org/wiki/CubeSat)) , 10 x 10 x 10cm, less than 2 kg, does leave the atmosphere
+* can sized satellites ([cansat](https://en.wikipedia.org/wiki/CanSat)), 66mm diameter and 115mm height, mass below 350g, does not leave the atmosphere, are launched by a small rocket (but do not reach orbit velocity) and usually descent using a small parachute
 
 Here we talk mostly about *ballon satellites*.
 
