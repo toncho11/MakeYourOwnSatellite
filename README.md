@@ -1,16 +1,17 @@
 This repository contains information techologies used in small satellites.
 
 There are 3 types of small sattelites:
-* ballon sattalites
-* cube sattalites
-* can sized sattellites
-
+* ballon sattelites
+* cube sattelites (cubesat)
+* can sized sattellites (cansat)
 
 #Communication
 
 
 #Postioning
 Gps systems are limmitted to certain altitude and speed. So one needs to either use a device that hoas no these restrictions fly at a lower altitude.
+
+#Altitude control
 
 #Resources
 * https://github.com/stanford-ssi/balloons-VALBAL
