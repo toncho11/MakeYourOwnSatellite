@@ -25,7 +25,7 @@ It seems the most simple way to calculate altitude is to use air pressure sensor
 ## Power
 * battery
 * solar panel
-* [RAT](https://en.wikipedia.org/wiki/Ram_air_turbine) RAM air turbine - usually used on planes in case of emergency to produce electricity utilizing the speed of the plane
+* [RAT](https://en.wikipedia.org/wiki/Ram_air_turbine) - a RAM air turbine - usually used on planes in case of emergency to produce electricity utilizing the speed of the plane
 
 ## Resources
 * https://github.com/stanford-ssi/balloons-VALBAL
