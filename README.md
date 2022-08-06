@@ -13,7 +13,7 @@ You can use a satellite modem. An example is the [RockBLOCK Mk2](https://www.spa
 ## Positioning
 GPS systems are limmitted to certain altitude and speed. So one needs to either use a device that has none of these restrictions or fly at a lower altitude.
 An example high quality GPS is: M8Q-5883.
-There are modules that support the 3 global positioning systems: GPS, GLONASS and Galileo. You could also use the one from China called [BeiDou](https://en.wikipedia.org/wiki/BeiDou)
+There are modules that support the 3 global positioning systems: GPS, GLONASS and Galileo. You could also use the one from China called [BeiDou](https://en.wikipedia.org/wiki/BeiDou). 
 In GPS technology, the term "CoCom Limits" also refers to a limit placed on GPS tracking devices that disables tracking when the device calculates that it is moving faster than 1,000 knots (1,900 km/h; 1,200 mph) at an altitude higher than 18,000 m (59,000 ft).
 Alternative positioning can be taking a photo below the satellite, transmitting the photo back to a ground station and performing a map-matching as described in this [article](https://www.mdpi.com/1424-8220/18/11/3836/htm). But this techology is rather used in conjunction with other positioning technologies.
 
