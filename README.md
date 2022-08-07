@@ -26,7 +26,7 @@ A helium balloon can reach 30-40 km height in the atmosphere (outer space starts
 ## Power
 * battery
 * solar panel
-* [RAT](https://en.wikipedia.org/wiki/Ram_air_turbine) - a RAM air turbine - usually used on planes in case of emergency to produce electricity utilizing the speed of a plane or potentially a balloon
+* [RAT](https://en.wikipedia.org/wiki/Ram_air_turbine) - a RAM air turbine - usually used on planes in case of emergency to produce electricity utilizing the speed of a plane. Alternatively it could be used on a balloon satellite, but its weight makes it impractical.
 
 ## Camera
 The camera is positioned towards the ground. Stabilisation can be performed using [icavet-rigging](https://www.publiclab.org/wiki/picavet-rigging).
