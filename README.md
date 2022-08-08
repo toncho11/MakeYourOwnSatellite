@@ -11,10 +11,9 @@ Here we talk mostly about balloon satellites. Balloon satellites can be used for
 You can use a satellite modem. An example is the [RockBLOCK Mk2](https://www.sparkfun.com/products/13745) modem. One needs subscription to the [Iridium satellite network](https://en.wikipedia.org/wiki/Iridium_satellite_constellation). There is 12£ monthly subscription and also you pay per data. Currently it seems expensive: 50£ corresponds to 500 credits where 1 credit is just 50 bytes which means that 50£ = 24kb of data that will not be sufficient for the satellite to send its position contiously, but it could be doable if the satellite is limitted to sending its position 6 times per day.
 
 ## Positioning
-GPS systems are limmitted to certain altitude and speed. So one needs to either use a device that has none of these restrictions or fly at a lower altitude.
-An example high quality GPS is: M8Q-5883.
-There are modules that support the 3 global positioning systems: GPS, GLONASS and Galileo. You could also use the one from China called [BeiDou](https://en.wikipedia.org/wiki/BeiDou). 
-In GPS technology, the term "CoCom Limits" also refers to a limit placed on GPS tracking devices that disables tracking when the device calculates that it is moving faster than 1,000 knots (1,900 km/h; 1,200 mph) at an altitude higher than 18,000 m (59,000 ft).
+GPS systems are limmitted to certain altitude and speed. This is known as "CoCom Limits", it is an artificial limit placed on GPS tracking devices that disables tracking when the device calculates that it is moving faster than 1,000 knots (1,900 km/h; 1,200 mph) at an altitude higher than 18,000 m (59,000 ft). So one needs to either use a device that has none of these restrictions or fly at a lower altitude.
+An example high quality GPS is: M8Q-5883. There are modules that support the 3 global positioning systems: GPS, GLONASS and Galileo. Limits of GLONASS and Galileo are unknown. One could also use the one from China called [BeiDou](https://en.wikipedia.org/wiki/BeiDou). 
+
 Alternative positioning can be taking a photo below the satellite, transmitting the photo back to a ground station and performing a map-matching as described in this [article](https://www.mdpi.com/1424-8220/18/11/3836/htm). But this techology is rather used in conjunction with other positioning technologies.
 
 ## Microcontroller
