@@ -22,6 +22,11 @@ This is the central unit that makes the connection between the different compone
 ## Altitude control
 A helium balloon can reach 30-40 km height in the atmosphere (outer space starts at 960 km above Earth). It seems the most simple way to calculate altitude is to use an air pressure sensor such as BMP280 or [BMP388](https://www.adafruit.com/product/3966) as an [altimeter](https://en.wikipedia.org/wiki/Altimeter). Pressure decreases when going up. Altitude can be controlled by dropping ballast from the satellite.
 
+## Balloon
+There are several companies that provide a "weather baloon". Some come with complete kits. 
+* https://www.highaltitudescience.com/products/600-g-near-space-balloon
+* https://www.stratoflights.com/en/shop/weather-balloon-200/
+
 ## Power
 * battery
 * solar panel
