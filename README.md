@@ -27,6 +27,9 @@ There are several companies that provide a "weather baloon". Some come with comp
 * https://www.highaltitudescience.com/products/600-g-near-space-balloon
 * https://www.stratoflights.com/en/shop/weather-balloon-200/
 
+## Sensors
+https://techxplore.com/news/2022-08-sensor-smart-materials-drone.html
+
 ## Power
 * battery
 * solar panel
