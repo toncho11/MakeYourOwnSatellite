@@ -12,7 +12,7 @@ You can use a satellite modem. An example is the [RockBLOCK Mk2](https://www.spa
 Another option is to use the APRS protocol, but in this case ground stations that act as servers called IGate (Internet Gateway) are used. With the new [LoRa](https://github.com/lora-aprs/LoRa_APRS_iGate) protocol greater distances can be achieved, but if there are no local APRS iGates the data will not be received.
 
 ## Positioning
-GPS systems are limmitted to certain altitude and speed. This is known as "CoCom Limits", it is an artificial limit placed on GPS tracking devices that disables tracking when the device calculates that it is moving faster than 1,000 knots (1,900 km/h; 1,200 mph) at an altitude higher than 18,000 m (59,000 ft). So one needs to either use a device that has none of these restrictions or fly at a lower altitude.
+GPS systems are limited to certain altitude and speed. This is known as "CoCom Limits", it is an artificial limit placed on GPS tracking devices that disables tracking when the device calculates that it is moving faster than 1,000 knots (1,900 km/h; 1,200 mph) at an altitude higher than 18,000 m (59,000 ft). So one needs to either use a device that has none of these restrictions or fly at a lower altitude.
 An example high quality GPS is: M8Q-5883. There are modules that support the 3 global positioning systems: GPS, GLONASS and Galileo. Limits of GLONASS and Galileo are unknown. One could also use the one from China called [BeiDou](https://en.wikipedia.org/wiki/BeiDou).
 Another option is to use the APRS iGates to send the position of the baloon. This solution is not perfect, but it does not require montly subscription.
 
