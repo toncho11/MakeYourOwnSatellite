@@ -9,10 +9,12 @@ Here we talk mostly about balloon satellites. Balloon satellites can be used for
 
 ## Communication
 You can use a satellite modem. An example is the [RockBLOCK Mk2](https://www.sparkfun.com/products/13745) modem. One needs subscription to the [Iridium satellite network](https://en.wikipedia.org/wiki/Iridium_satellite_constellation). There is 12£ monthly subscription and also you pay per data. Currently it seems expensive: 50£ corresponds to 500 credits where 1 credit is just 50 bytes which means that 50£ = 24kb of data that will not be sufficient for the satellite to send its position contiously, but it could be doable if the satellite is limitted to sending its position 6 times per day.
+Another option is to use the APRS protocol, but in this case ground stations that act as servers called IGate (Internet Gateway) are used. With the new [LoRa](https://github.com/lora-aprs/LoRa_APRS_iGate) protocol greater distances can be achieved, but if there are no local APRS iGates the data will not be received.
 
 ## Positioning
 GPS systems are limmitted to certain altitude and speed. This is known as "CoCom Limits", it is an artificial limit placed on GPS tracking devices that disables tracking when the device calculates that it is moving faster than 1,000 knots (1,900 km/h; 1,200 mph) at an altitude higher than 18,000 m (59,000 ft). So one needs to either use a device that has none of these restrictions or fly at a lower altitude.
-An example high quality GPS is: M8Q-5883. There are modules that support the 3 global positioning systems: GPS, GLONASS and Galileo. Limits of GLONASS and Galileo are unknown. One could also use the one from China called [BeiDou](https://en.wikipedia.org/wiki/BeiDou). 
+An example high quality GPS is: M8Q-5883. There are modules that support the 3 global positioning systems: GPS, GLONASS and Galileo. Limits of GLONASS and Galileo are unknown. One could also use the one from China called [BeiDou](https://en.wikipedia.org/wiki/BeiDou).
+Another option is to use the APRS iGates to send the position of the baloon. This solution is not perfect, but it does not require montly subscription.
 
 Alternative positioning can be taking a photo below the satellite, transmitting the photo back to a ground station and performing a map-matching as described in this [article](https://www.mdpi.com/1424-8220/18/11/3836/htm). But this techology is rather used in conjunction with other positioning technologies.
 
