@@ -22,7 +22,7 @@ Alternative positioning can be taking a photo below the satellite, transmitting 
 This is the central unit that makes the connection between the different components of the satellite. It should be low-powered, small and robust to atmospheric hardships. It is tempting to think that a small device such as Arduino or RaspberryPi will do the job. But these devices lack the last requirement - robustness. They are often used for prototyping and long term use is unknown. We often do not notice that because an Arduino can be easily replaced in non-flying devices.  
 
 ### Operating Systems
-In general a full blown OS is not required and it might add complexity and higher power usage. Examples of suitable OSs are [QNX](https://blackberry.qnx.com/en) and [ELKS](https://github.com/jbruchon/elks) (used for old x86 computers) could be potentially used. 
+In general a full blown OS is not required and it might add complexity and higher power usage. Examples of suitable OSs are [QNX](https://blackberry.qnx.com/en) and [ELKS](https://github.com/jbruchon/elks) (used for old x86 computers).
 
 ### Hardware
 The following are low powered mini computers that can be integrated with the other circuits of the satellite:
