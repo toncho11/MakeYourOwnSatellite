@@ -26,9 +26,9 @@ In general a full blown OS is not required and it might add complexity and highe
 
 ### Hardware
 The following are low powered mini computers that can be integrated with the other circuits of the satellite:
-* There can even be a variant where an [ESP32 microcontroller](https://en.wikipedia.org/wiki/ESP32) can emulate a 8086 CPU and allow ELKS to run on it. This can be done using the [FabGL ESP32 Board](https://www.tindie.com/products/fabgl/fabgl-esp32-board-16mb-flash-4-mb-psram-33v-io/). One could argue that this 8086 emulation is an added complexity, but ELKS is probably the only Linux like OS that runs on a such low-powered device. 
 * [86duino-zero](https://www.cnx-software.com/2013/11/27/39-86duino-zero-is-an-x86-arduino-compatible-board-that-supports-dos-windows-and-linux/)
-* [Intel Gallileo Development Board](https://www.cnx-software.com/2013/11/06/69-intel-gallileo-development-board-combines-x86-processor-and-arduino-compatibility/).
+* [Intel Gallileo Development Board](https://www.cnx-software.com/2013/11/06/69-intel-gallileo-development-board-combines-x86-processor-and-arduino-compatibility/)
+* There can even be a variant where an [ESP32 microcontroller](https://en.wikipedia.org/wiki/ESP32) can emulate a 8086 CPU and allow ELKS to run on it. This can be done using the [FabGL ESP32 Board](https://www.tindie.com/products/fabgl/fabgl-esp32-board-16mb-flash-4-mb-psram-33v-io/). One could argue that this 8086 emulation is an added complexity, but ELKS is probably the only Linux like OS that runs on a such low-powered device
 
 ## Altitude control
 A helium balloon can reach 30-40 km height in the atmosphere (outer space starts at 960 km above Earth). It seems the most simple way to calculate altitude is to use an air pressure sensor such as BMP280 or [BMP388](https://www.adafruit.com/product/3966) as an [altimeter](https://en.wikipedia.org/wiki/Altimeter). Pressure decreases when going up. Altitude can be controlled by dropping ballast from the satellite.
