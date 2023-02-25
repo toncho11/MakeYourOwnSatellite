@@ -28,6 +28,7 @@ The following boards have GPS module and are capable of LoRa APRS communication:
 * TTGO T-Beam V0.7 (433MHz SX1278)
 * TTGO T-Beam V1 (433MHz SX1278)
 * [PICOAPRSLITE APRS TRx](https://www.wimo.com/en/picoaprslite)
+
 So they are ready to send their position over the free APRS network. 
 
 ### Hardware non x86 comatible (ARM)
