@@ -21,9 +21,9 @@ Alternative positioning can be taking a photo below the satellite, transmitting 
 ## Microcontroller
 This is the central unit that makes the connection between the different components of the satellite. It should be low-powered, small and robust to atmospheric hardships. It is tempting to think that a small device such as Arduino or RaspberryPi will do the job. But these devices lack the last requirement - robustness. They are often used for prototyping and long term use is unknown. We often do not notice that because an Arduino can be easily replaced in non-flying devices.  
 
-So we have the option to either use a micro controller such as Arduino/ESP32 or a more powerful one of type Raspberry Pi. In the case of the former (Arduino) you need to directly program it. Below information is provided for the later.
+So we have the option to either use a micro controller such as Arduino/ESP32 or a more powerful one of type Raspberry Pi. In the case of the former (Arduino) you need to directly program it.
 
-### All in one
+### All in one microcontroller
 The following boards have GPS module and are capable of LoRa APRS communication:
 * TTGO T-Beam V0.7 (433MHz SX1278)
 * TTGO T-Beam V1 (433MHz SX1278)
