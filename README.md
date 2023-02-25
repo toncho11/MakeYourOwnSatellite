@@ -23,6 +23,13 @@ This is the central unit that makes the connection between the different compone
 
 So we have the option to either use a micro controller such as Arduino/ESP32 or a more powerful one of type Raspberry Pi. In the case of the former (Arduino) you need to directly program it. Below information is provided for the later.
 
+### All in one
+The following boards have GPS module and are capable of LoRa APRS communication:
+* TTGO T-Beam V0.7 (433MHz SX1278)
+* TTGO T-Beam V1 (433MHz SX1278)
+* [PICOAPRSLITE APRS TRx](https://www.wimo.com/en/picoaprslite)
+So they are ready to send their position over the free APRS network. 
+
 ### Hardware non x86 comatible (ARM)
 * Raspberry Pi (and clones)
 
@@ -33,12 +40,6 @@ The following are low powered mini computers that can be integrated with the oth
 * There can even be a variant where an [ESP32 microcontroller](https://en.wikipedia.org/wiki/ESP32) can emulate a 8086 CPU and allow ELKS to run on it. This can be done using the [FabGL ESP32 Board](https://www.tindie.com/products/fabgl/fabgl-esp32-board-16mb-flash-4-mb-psram-33v-io/). One could argue that this 8086 emulation is an added complexity, but ELKS is probably the only Linux like OS that runs on a such low-powered device
 
 In general a full blown OS is not required and it might add complexity and higher power usage. Examples of suitable OSs are [QNX](https://blackberry.qnx.com/en) and [ELKS](https://github.com/jbruchon/elks) (used for old x86 computers).
-
-### All in one
-The following boards have GPS module and are capable of LoRa APRS communication:
-* TTGO T-Beam V0.7 (433MHz SX1278)
-* TTGO T-Beam V1 (433MHz SX1278)
-So they are ready to send their position over the free APRS network. 
 
 ## Altitude control
 A helium balloon can reach 30-40 km height in the atmosphere (outer space starts at 960 km above Earth). It seems the most simple way to calculate altitude is to use an air pressure sensor such as BMP280 or [BMP388](https://www.adafruit.com/product/3966) as an [altimeter](https://en.wikipedia.org/wiki/Altimeter). Pressure decreases when going up. Altitude can be controlled by dropping ballast from the satellite.
